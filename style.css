@@ -1,0 +1,140 @@
+* {
+        margin: 0;
+            padding: 0;
+                border: border-box;
+                }
+
+                body {
+                    background: linear-gradient(
+                            45deg, #d7ceb2, #a59e8c
+                                );
+                                }
+                                .border:hover {
+                                    border: 2px solid goldenrod;
+                                        border-radius: 10px;
+                                        }
+
+                                        .heading {
+                                            background: linear-gradient(
+                                                    45deg, #4c5760, #93a8ac
+                                                        );
+                                                            display: flex;
+                                                                justify-content: center;
+                                                                    width: 65%;
+                                                                        height: 45px;
+                                                                            justify-self: center;
+                                                                                align-items: center;
+                                                                                    border-radius: 10px;
+                                                                                        margin-top: 15px
+                                                                                        }
+                                                                                        h1 {
+                                                                                            text-align: center;
+                                                                                                height: 97%;
+                                                                                                    width: 100%;
+                                                                                                        color: #d7ceb2;
+                                                                                                            border: 2px solid black;
+                                                                                                                border-radius: 10px;
+                                                                                                                }
+
+                                                                                                                .playername {
+                                                                                                                    margin: 15px;
+                                                                                                                        height: 60px;
+                                                                                                                            background-color: #548687;
+                                                                                                                                border: 3px solid goldenrod;
+                                                                                                                                    border-radius: 15px;
+                                                                                                                                    }
+
+                                                                                                                                    .name {
+                                                                                                                                        color: goldenrod;
+                                                                                                                                            margin: 5px;
+                                                                                                                                            }
+
+                                                                                                                                            .container {
+                                                                                                                                                height: 50vh;
+                                                                                                                                                    width: 90vw;
+                                                                                                                                                        justify-self: center;
+                                                                                                                                                            margin-top: 15px;
+                                                                                                                                                                display: flex;
+                                                                                                                                                                    justify-content: center;
+                                                                                                                                                                        align-items: center;
+                                                                                                                                                                            border: 5px solid goldenrod;
+                                                                                                                                                                                border-radius: 15px;
+                                                                                                                                                                                    background-color: #548687;
+                                                                                                                                                                                    }
+
+                                                                                                                                                                                    .game {
+                                                                                                                                                                                        height: 80%;
+                                                                                                                                                                                            width: 90%;
+                                                                                                                                                                                                display: flex;
+                                                                                                                                                                                                    flex-wrap: wrap;
+                                                                                                                                                                                                        align-items: center;
+                                                                                                                                                                                                            justify-content: center;
+                                                                                                                                                                                                                gap: 8px;
+                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                .box {
+                                                                                                                                                                                                                    height: 90px;
+                                                                                                                                                                                                                        width: 90px;
+                                                                                                                                                                                                                            border: 2px solid goldenrod;
+                                                                                                                                                                                                                                font-size: 3.8rem;
+                                                                                                                                                                                                                                    color: goldenrod;
+                                                                                                                                                                                                                                        background: none;
+                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                                        .box:hover {
+                                                                                                                                                                                                                                            border: 2px solid goldenrod;
+                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                            .box1 {
+                                                                                                                                                                                                                                                border-top: none;
+                                                                                                                                                                                                                                                    border-left: none;
+                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                    .box2 {
+                                                                                                                                                                                                                                                        border-top: none;
+                                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                                                        .box3 {
+                                                                                                                                                                                                                                                            border-top: none;
+                                                                                                                                                                                                                                                                border-right: none;
+                                                                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                                                                .box4 {
+                                                                                                                                                                                                                                                                    border-left: none;
+                                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                                    .box5:hover {
+                                                                                                                                                                                                                                                                        border: 3px solid goldenrod;
+                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                        .box6 {
+                                                                                                                                                                                                                                                                            border-right: none;
+                                                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                                                            .box7 {
+                                                                                                                                                                                                                                                                                border-left: none;
+                                                                                                                                                                                                                                                                                    border-bottom: none;
+                                                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                                                    .box8 {
+                                                                                                                                                                                                                                                                                        border-bottom: none;
+                                                                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                                                                                        .box9 {
+                                                                                                                                                                                                                                                                                            border-bottom: none;
+                                                                                                                                                                                                                                                                                                border-right: none
+                                                                                                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                                                                                                footer {
+                                                                                                                                                                                                                                                                                                align-items: center;
+                                                                                                                                                                                                                                                                                                justify-content: center;
+                                                                                                                                                                                                                                                                                                display: flex;
+                                                                                                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                                                                                                #btn {
+                                                                                                                                                                                                                                                                                                    margin-top: 30px;
+                                                                                                                                                                                                                                                                                                        height: 40px;
+                                                                                                                                                                                                                                                                                                            width: 100px;
+                                                                                                                                                                                                                                                                                                                border-radius: 5px;
+                                                                                                                                                                                                                                                                                                                    color: beige;
+                                                                                                                                                                                                                                                                                                                        background-color: rgb(177, 24, 24);
+                                                                                                                                                                                                                                                                                                                        }
